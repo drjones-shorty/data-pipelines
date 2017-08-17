@@ -4,7 +4,7 @@
 		module="twitterproducer_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20170816012629"
+		publication="20170816203018"
 	>
 		<description>
 		TwitterProducer
@@ -37,5 +37,8 @@
 		<dependency org="org.twitter4j" name="twitter4j" rev="4.0.6" conf="compile->default(compile)"/>
 		<dependency org="org.twitter4j" name="twitter4j-stream" rev="4.0.6" conf="compile->default(compile)"/>
 		<dependency org="org.apache.kafka" name="kafka-clients" rev="0.10.2.1" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-core_2.11" rev="2.2.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-streaming_2.11" rev="2.2.0" conf="provided->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-streaming-kafka-0-10_2.11" rev="2.2.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

@@ -21,7 +21,6 @@ object TwitterControls {
 
     val topic = "KAFKA_TWEETS"
     val brokers = "localhost:9092"
-    val rnd = new Random()
     val props = new Properties()
     props.put("bootstrap.servers", brokers)
     props.put("client.id", "TwitterAccount")
