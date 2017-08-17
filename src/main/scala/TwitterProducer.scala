@@ -1,5 +1,6 @@
 package com.tamisin
 import twitter4j._
+import java.util._
 import org.apache.kafka.clients.producer.{KafkaProducer, ProducerRecord}
 
 object TwitterProducer {
